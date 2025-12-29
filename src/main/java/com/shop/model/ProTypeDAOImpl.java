@@ -7,7 +7,7 @@ public class ProTypeDAOImpl implements ProTypeDAO {
 	String driver = "com.mysql.cj.jdbc.Driver";
 	String url = "jdbc:mysql://localhost:3306/petguardian?serverTimezone=Asia/Taipei";
 	String userid = "root";
-	String passwd = "ss0995002";
+	String passwd = "ss123456";
 
 	private static final String INSERT_STMT = "INSERT INTO PRO_TYPE (PRO_TYPE_NAME) VALUES (?)";
 	private static final String GET_ALL_STMT = "SELECT PRO_TYPE_ID, PRO_TYPE_NAME FROM PRO_TYPE order by PRO_TYPE_ID";
